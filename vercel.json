@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "meu-projeto",
   "builds": [
     {
       "src": "src/app.js",
@@ -12,9 +11,5 @@
       "src": "/api/(.*)",
       "dest": "src/app.js"
     }
-  ],
-  "env": {
-    "MONGODB_URI": "@mongodb_uri",
-    "DB_NAME": "@db_name"
-  }
+  ]
 }
